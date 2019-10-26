@@ -1,0 +1,17 @@
+####A simple command line write permission remover
+###by Krypt0N
+
+#Metod One: Not always work, but only clears the permission.
+
+DISKPART
+LIST DISK
+SELECT DISK (x) {x=The numeber of the disk that you want to format}
+ATTRIBUTES DISK CLEAR READONLY 
+
+#Metod Two: Almost all the Time Works.
+DISKPART
+LIST DISK
+SELECT DISK (x) {x=The numeber of the disk that you want to format}
+CLEAN 
+#OR
+CLEAN ALL
