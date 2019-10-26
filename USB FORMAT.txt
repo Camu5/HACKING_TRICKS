@@ -1,16 +1,13 @@
 ####A simple windows command line usb format 
 ##By Krypt0N
-#The "C:\>" means the start of the command line interpreter 
 
-C:\> DISKPART
-C:\> LIST DISK
-C:\> SELECT DISK (x) {x=The numeber of the disk that you want to format}
-C:\> CLEAN
-C:\> CREATE PARTITION PRIMARY
-C:\> SELECT PARTITION 1
-C:\> ACTIVE
-C:\> format fs=NTFS
-C:\> ASSIGN 
-C:\> EXIT
-
-#Done!
+DISKPART
+LIST DISK
+SELECT DISK (x) {x=The numeber of the disk that you want to format}
+CLEAN
+CREATE PARTITION PRIMARY
+SELECT PARTITION 1
+ACTIVE
+format fs=NTFS
+ASSIGN 
+EXIT
