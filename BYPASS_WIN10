@@ -1,0 +1,35 @@
+###A simple guide to bypass password-protected windows 10 users
+#By Krypt0N
+
+IMPORTANT::::::::
+YOU NEED TO HAVE PHYSICAL ACCESS TO THE PC
+
+1- First you have to go to the user login
+2- Now you have to press the SHIFT key and reboot the system (KEEP PRESSING THE SHIFT KEY UNTIL THE SYSTEM SHOWS A BLUE MENU)
+3- Then, you have to go to "Troubleshot" (in spanish "SOLUCIONAR PROBLEMAS").
+4- Go to Advanced Options (in spanish "OPCIONES AVANZADAS")
+5- Now, go to "System Image Recovery"
+    NOTE: IF YOU DON´T HAVE THAT OPTION
+    5.1 Go to "More Recovery Options or something like that (in spanish "VER MAS OPCIONES DE RECUPERACION").
+    5.2 Go to "System Image Recovery"
+6- Now cancel the popup. Only the first one "Re-image Your Computer".
+7- And now "select a system image"
+8- Go to "Advanced Options".
+9- Select "Install a Controller" or something like that 
+10- Select OK
+11- NOW in the file explorer...
+  11.1 Go to System32
+  11.2 Find a file named "UTILMAN" and rename it. It doesn´t matter what name you choose.
+  11.3 Find the file named "cmd" and rename it to "Utilman". Exactly like that.
+12- Press cancel to everything until the screen shows that blue menu again
+13- Click "Continue"
+14- Click the Accesibility Icon #YOU WILL NOTICE THAT WILL APPEAR A TERMINAL (CMD)
+  14.1 net user #for scan the admin user
+  14.2 net user USERACCOUNTNAME * #for change the password. if you just press enter, the password will be removed.
+15- DONE!!!
+
+
+  IMPORTANT::::::
+  If you want to close the "backdoor" in the Acessibility Icon, just rename:
+  Utilman ---> cmd
+  THENAMEOFTHEFILEYOURENAMED ---> Utilman
