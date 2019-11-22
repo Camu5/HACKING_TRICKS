@@ -29,7 +29,25 @@ YOU NEED TO HAVE PHYSICAL ACCESS TO THE PC
 15- DONE!!!
 
 
-  IMPORTANT::::::
+##########################################################################
+EXAMPLE:::::::::::
+
+#C:\> net user
+
+User Accounts of  \\XXXX
+-----------------------------------------
+Administator    XXXX    DefaultAccount
+The command completed successfully.
+
+
+#C>:\> net user XXXX *
+Type a password for the user:
+Retype the password to confirm:
+The command completed successfully.
+##########################################################################
+
+
+ IMPORTANT::::::
   If you want to close the "backdoor" in the Acessibility Icon, just rename:
   Utilman ---> cmd
   THENAMEOFTHEFILEYOURENAMED ---> Utilman
