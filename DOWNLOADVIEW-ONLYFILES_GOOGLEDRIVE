@@ -3,7 +3,7 @@ Abrir la consola
 Dar el permiso para pegar. En español se debe escribir y ejecutar el comando "permitir pegar" en la consola. 
 Pegar el siguiente código después de la barrera de comillas (a partir de "let jspdf"): 
 
-"""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""INICIO DEL CÓDIGO"""""""""""""""""""""""""""""""""""""
 let jspdf = document.createElement("script");
  
 jspdf.onload = function () {
@@ -33,5 +33,4 @@ jspdf.onload = function () {
 jspdf.src = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js';
 document.body.appendChild(jspdf);
 
-""""""""""""""""""""""""""""""""""""""""""""""""""
-FIN
+"""""""""""""""""""""""""""""""""""""""""""""""FIN DEL CÓDIGO""""""""""""""""""""""""""""""""""""""""""""""""""
