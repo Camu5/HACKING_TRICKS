@@ -1,7 +1,7 @@
-Abrir el archivo y leerlo todo, es decir, cargar todas las páginas del documento. Esto es importante pues si una página no está correctamente cargada, no se incluirá en el documento descargado.
+Abrir el archivo y leerlo todo, es decir, cargar todas las páginas del documento. Esto es importante pues si una página no está correctamente cargada, no se incluirá en el documento descargado. El script funciona por medio de fotografiar el documento, esta es la importancia de tener el documento completamente visualizado.
 Abrir la consola
 Dar el permiso para pegar. En español se debe escribir y ejecutar el comando "permitir pegar" en la consola. 
-Pegar el siguiente código: 
+Pegar el siguiente código después de la barrera de comillas (a partir de "let jspdf"): 
 
 """""""""""""""""""""""""""""""""""""
 let jspdf = document.createElement("script");
